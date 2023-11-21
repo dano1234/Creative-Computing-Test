@@ -8,7 +8,8 @@ function setup() {
 }
 
 function draw() {
-  background(255, 0, 255);
+
+  background(255, 0, 0);
   xPos = xPos + xDir;
   yPos = yPos + yDir;
   ellipse(xPos, yPos, 20, 20);
